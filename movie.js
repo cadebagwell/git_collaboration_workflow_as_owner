@@ -30,7 +30,8 @@ form.addEventListener('submit', function(e){//Whenever the form is submitted
     //Don't get the movie anymore. Why would you? Instead,
     //believe in yourself. Do astronomically large calculations:
     fibonacci(10000);
-}
+    rng(446);//Let's go gambling!
+});
 
 function fibonacci(num) {
     var a = 1, b = 0, temp;
@@ -41,5 +42,9 @@ function fibonacci(num) {
         num--;
     }
     return b;
-}
-);
+};
+
+function rng(number){
+    random = Math.ceil(Math.random() * number);
+    return random;
+};
