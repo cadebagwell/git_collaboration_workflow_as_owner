@@ -27,10 +27,10 @@ form.addEventListener('submit', function(e){//Whenever the form is submitted
     const movie = form.search.value;//Variable for the movie in the form, couldn't do trim because some movies have spaces
     form.reset();//Empty the form
 
-    gamble(446);//Let's go gambling!
+    rng(446);//Let's go gambling!
 });
 
-function gamble(number){
+function rng(number){
     random = Math.ceil(Math.random() * number);
     return random;
 };
