@@ -27,5 +27,19 @@ form.addEventListener('submit', function(e){//Whenever the form is submitted
     const movie = form.search.value;//Variable for the movie in the form, couldn't do trim because some movies have spaces
     form.reset();//Empty the form
 
-    getMovie(movie);//Call the getMovie function
-});
+    //Don't get the movie anymore. Why would you? Instead,
+    //believe in yourself. Do astronomically large calculations:
+    fibonacci(10000);
+}
+
+function fibonacci(num) {
+    var a = 1, b = 0, temp;
+    while (num >= 0) {
+        temp = a;
+        a = a + b;
+        b = temp;
+        num--;
+    }
+    return b;
+}
+);
