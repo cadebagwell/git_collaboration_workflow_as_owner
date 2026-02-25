@@ -1,0 +1,19 @@
+body{
+    background-color: #B1CEFA;
+}
+h1{
+    text-align: center;
+    color: #3951D9;
+}
+h2{
+    color: #3951D9;
+}
+h3{
+    color: #3951D9;
+}
+p.plot{
+    font-family: 'Times New Roman', Times, serif;
+}
+p.actor{
+    font-family: 'Times New Roman', Times, serif;
+}
